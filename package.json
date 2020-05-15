@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "NODE_OPTIONS='--inspect' next",
     "start": "next",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +15,12 @@
   "license": "ISC",
   "dependencies": {
     "next": "^9.4.0",
+    "nprogress": "^0.2.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.7"
   }
 }
